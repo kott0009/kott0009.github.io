@@ -10,7 +10,7 @@ header, footer {
     color: aqua;
 }
 #my image div{
-    box-shadow:  black;
+    box-shadow:0px 2px 1px black;
 }
 ul {
     list-style: square;
@@ -20,4 +20,13 @@ ul :nth-child(odd) {
 }
 ul :nth-child(even) {
     background-color: bisque;
+}
+a:link {
+    text-decoration: none;
+}
+a:link {
+    background-color: blue;
+}
+a:hover {
+    background-color: aqua;
 }
