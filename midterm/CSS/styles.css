@@ -1,13 +1,96 @@
 body {
     background-color: #aad4cf;
-    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 4px;
+    color: black;
 }
-header {
-    background-image: url("../images/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
+
+p,h1,h2 {
+    padding-left: 5px;
+    color: black;
+}
+
+a {
+    /* to create the navigation bar */
+    color: black;
+    text-decoration: none;
+}
+
+div {
+    /* to create the crea to display document */
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #aad4cf;
+    margin-top: 0%;
+}
+
+img.header{
+    /* The header image */
+    width: 100%;
+    height: 250px;
+}
+
+.container {
+    /* Text inside image */
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    /* Text inside image */
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%-50%);
+    font-size: 300%;
+    background-color: transparent;
+}
+
+nav {
+    display: block;
+    position: relative;   /* navigation bar */
+}
+
+nav ul {
+    list-style: none; /* The list to create horizontal navigation bar*/
+    font-size: 175%;
+    width: 100%;
+    margin: 0 auto;
 
 }
 
-h1 {
-    color:#000;
+nav ul li {
+    display: inline-block;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+img.article {
+    float: left; /* wrapping the image*/
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.input {
+    width: 100%; /*The form components*/
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+}
+
+.submit {
+    background-color: transparent;
+    padding: 6px;
+    border: 1px solid black;
+    font-size: 50%;
 }
