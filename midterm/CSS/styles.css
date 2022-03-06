@@ -34,6 +34,7 @@ img.header{
     /* Text inside image */
     position: relative;
     text-align: center;
+    color: white;
 }
 
 .centered {
